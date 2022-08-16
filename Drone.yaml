@@ -21,5 +21,4 @@ steps:
     password:
       from_secret: docker_password
     repo: mctsamiktrng01/sampledockerrepo
-    auto_tag: true
-    auto_tag_suffix: drone-build
+    tags: latest
